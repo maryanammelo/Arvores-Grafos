@@ -19,8 +19,13 @@ int pesquisaSequencial(int arr[], int tamanho, int alvo) {
 int main() {
     int dados[] = {55, 12, 89, 33, 21, 90, 44};
     int tamanho = sizeof(dados) / sizeof(dados[0]);
-    int alvo = 76;
-
+    int alvo;
+    
+    printf("Lista Sequencial: {55, 12, 89, 33, 21, 90, 44}\n\n");
+    
+    printf("Digite o número que deseja localizar:\n\n");
+    scanf("%d", &alvo);
+    
     printf("\nIniciando pesquisa sequencial...\n\n");
     int resultado = pesquisaSequencial(dados, tamanho, alvo);
 
