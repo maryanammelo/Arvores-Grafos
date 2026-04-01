@@ -1,0 +1,3 @@
+Em média a busca sequencial realiza 1000 comparaçoes em uma lista com 1000 elementos. E a busca binaria em uma lista com 1000
+elementos ordenados, realiza em média de 10 comparaçoes. Sendo nesse caso, a busca binária é mais eficiente e mais rapida, visto que ela 
+realiza poucas comparaçoes em comparaçao com a sequencial que iria demorar muito mais, devido a grande quantidade de comparaçoes.
