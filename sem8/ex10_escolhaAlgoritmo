@@ -1,0 +1,4 @@
+No caso da lista A, em que a quantidade de elementos é relatiavmente pequena e os elementos nao estao ordenados, a melhor escolha é a 
+busca sequencial. Visto que ela nao requer ordenacao e sua comlexidade é O(n).
+Já no caso da Lista B, em que ha uma quantidade exacerbada de elementos e eles estao ordenados, a melhor escolha é a busca binaria. Visto
+que ela requer ordenacao, e sua complexidade é O(log n), e tem performace rápida.
