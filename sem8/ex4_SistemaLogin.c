@@ -27,10 +27,16 @@ int pesquisaBinaria(int arr[], int esquerda, int direita, int alvo) {
 int main() {
     int dados[] = {101, 203, 305, 407, 509, 611, 713}; 
     int tamanho = sizeof(dados) / sizeof(dados[0]);
-    int alvo = 78;
+    int alvo = 55;
 
     printf("Iniciando pesquisa binaria...\n");
     int resultado = pesquisaBinaria(dados, 0, tamanho - 1, alvo);
-
+    
+    if(alvo == 101 || alvo == 203 || alvo == 305 || alvo == 407 || alvo == 509 || alvo == 611 || alvo == 713){
+        printf("Acesso Permitido");
+    } else{
+        printf("Usuario nao encontrado");
+    };
+    
     return 0;
 }
