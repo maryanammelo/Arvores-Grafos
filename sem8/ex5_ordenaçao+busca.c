@@ -43,6 +43,8 @@ int main() {
     int tamanho = sizeof(dados) / sizeof(dados[0]);
     int alvo = 55;
 
+    bubbleSort(dados, tamanho);
+
     printf("Iniciando pesquisa binaria...\n");
     int resultado = pesquisaBinaria(dados, 0, tamanho - 1, alvo);
     printf("vetor depois da ordenaçao: %i", &resultado);
